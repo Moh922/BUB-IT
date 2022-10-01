@@ -21,7 +21,7 @@ const handleSubmit = (e) => {
     })
     .then((data) =>{
       if (data != null ) {
-        // window.location.href = '/pages/login.html'
+        window.location.href = '/login.html'
       }
       console.log(data);
     })
